@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.join-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 12px;
+}
+
+.join-container input,
+.join-container select,
+.join-container button {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.join-container button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.chat-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.announcements {
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.announcement-message {
+  padding: 4px 0;
+  color: #5d4037;
+}
+
+.messages {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+}
+
+.message {
+  padding: 4px 0;
+}
+
+.message.teacher {
+  color: #1565c0;
+}
+
+.message.system {
+  color: #999;
+  font-style: italic;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.input-row button {
+  padding: 10px 20px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
